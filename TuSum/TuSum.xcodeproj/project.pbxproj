@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05266D42AE596BC003429C4 /* TuSumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266D32AE596BC003429C4 /* TuSumApp.swift */; };
+		D05266D62AE596BC003429C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266D52AE596BC003429C4 /* ContentView.swift */; };
+		D05266D82AE596BE003429C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05266D72AE596BE003429C4 /* Assets.xcassets */; };
+		D05266DB2AE596BE003429C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05266DA2AE596BE003429C4 /* Preview Assets.xcassets */; };
+		D05266E52AE596BF003429C4 /* TuSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266E42AE596BF003429C4 /* TuSumTests.swift */; };
+		D05266EF2AE596BF003429C4 /* TuSumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266EE2AE596BF003429C4 /* TuSumUITests.swift */; };
+		D05266F12AE596BF003429C4 /* TuSumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266F02AE596BF003429C4 /* TuSumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05266E12AE596BF003429C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05266C82AE596BC003429C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05266CF2AE596BC003429C4;
+			remoteInfo = TuSum;
+		};
+		D05266EB2AE596BF003429C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05266C82AE596BC003429C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05266CF2AE596BC003429C4;
+			remoteInfo = TuSum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05266D02AE596BC003429C4 /* TuSum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuSum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05266D32AE596BC003429C4 /* TuSumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumApp.swift; sourceTree = "<group>"; };
+		D05266D52AE596BC003429C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D05266D72AE596BE003429C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05266DA2AE596BE003429C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D05266E02AE596BF003429C4 /* TuSumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuSumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05266E42AE596BF003429C4 /* TuSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumTests.swift; sourceTree = "<group>"; };
+		D05266EA2AE596BF003429C4 /* TuSumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuSumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05266EE2AE596BF003429C4 /* TuSumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumUITests.swift; sourceTree = "<group>"; };
+		D05266F02AE596BF003429C4 /* TuSumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05266CD2AE596BC003429C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266DD2AE596BF003429C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266E72AE596BF003429C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05266C72AE596BC003429C4 = {
+			isa = PBXGroup;
+			children = (
+				D05266D22AE596BC003429C4 /* TuSum */,
+				D05266E32AE596BF003429C4 /* TuSumTests */,
+				D05266ED2AE596BF003429C4 /* TuSumUITests */,
+				D05266D12AE596BC003429C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05266D12AE596BC003429C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05266D02AE596BC003429C4 /* TuSum.app */,
+				D05266E02AE596BF003429C4 /* TuSumTests.xctest */,
+				D05266EA2AE596BF003429C4 /* TuSumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05266D22AE596BC003429C4 /* TuSum */ = {
+			isa = PBXGroup;
+			children = (
+				D05266D32AE596BC003429C4 /* TuSumApp.swift */,
+				D05266D52AE596BC003429C4 /* ContentView.swift */,
+				D05266D72AE596BE003429C4 /* Assets.xcassets */,
+				D05266D92AE596BE003429C4 /* Preview Content */,
+			);
+			path = TuSum;
+			sourceTree = "<group>";
+		};
+		D05266D92AE596BE003429C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D05266DA2AE596BE003429C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D05266E32AE596BF003429C4 /* TuSumTests */ = {
+			isa = PBXGroup;
+			children = (
+				D05266E42AE596BF003429C4 /* TuSumTests.swift */,
+			);
+			path = TuSumTests;
+			sourceTree = "<group>";
+		};
+		D05266ED2AE596BF003429C4 /* TuSumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D05266EE2AE596BF003429C4 /* TuSumUITests.swift */,
+				D05266F02AE596BF003429C4 /* TuSumUITestsLaunchTests.swift */,
+			);
+			path = TuSumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05266CF2AE596BC003429C4 /* TuSum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05266F42AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSum" */;
+			buildPhases = (
+				D05266CC2AE596BC003429C4 /* Sources */,
+				D05266CD2AE596BC003429C4 /* Frameworks */,
+				D05266CE2AE596BC003429C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuSum;
+			productName = TuSum;
+			productReference = D05266D02AE596BC003429C4 /* TuSum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05266DF2AE596BF003429C4 /* TuSumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05266F72AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSumTests" */;
+			buildPhases = (
+				D05266DC2AE596BF003429C4 /* Sources */,
+				D05266DD2AE596BF003429C4 /* Frameworks */,
+				D05266DE2AE596BF003429C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05266E22AE596BF003429C4 /* PBXTargetDependency */,
+			);
+			name = TuSumTests;
+			productName = TuSumTests;
+			productReference = D05266E02AE596BF003429C4 /* TuSumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D05266E92AE596BF003429C4 /* TuSumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05266FA2AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSumUITests" */;
+			buildPhases = (
+				D05266E62AE596BF003429C4 /* Sources */,
+				D05266E72AE596BF003429C4 /* Frameworks */,
+				D05266E82AE596BF003429C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05266EC2AE596BF003429C4 /* PBXTargetDependency */,
+			);
+			name = TuSumUITests;
+			productName = TuSumUITests;
+			productReference = D05266EA2AE596BF003429C4 /* TuSumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05266C82AE596BC003429C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D05266CF2AE596BC003429C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D05266DF2AE596BF003429C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D05266CF2AE596BC003429C4;
+					};
+					D05266E92AE596BF003429C4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D05266CF2AE596BC003429C4;
+					};
+				};
+			};
+			buildConfigurationList = D05266CB2AE596BC003429C4 /* Build configuration list for PBXProject "TuSum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05266C72AE596BC003429C4;
+			productRefGroup = D05266D12AE596BC003429C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05266CF2AE596BC003429C4 /* TuSum */,
+				D05266DF2AE596BF003429C4 /* TuSumTests */,
+				D05266E92AE596BF003429C4 /* TuSumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05266CE2AE596BC003429C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05266DB2AE596BE003429C4 /* Preview Assets.xcassets in Resources */,
+				D05266D82AE596BE003429C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266DE2AE596BF003429C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266E82AE596BF003429C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05266CC2AE596BC003429C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05266D62AE596BC003429C4 /* ContentView.swift in Sources */,
+				D05266D42AE596BC003429C4 /* TuSumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266DC2AE596BF003429C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05266E52AE596BF003429C4 /* TuSumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05266E62AE596BF003429C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05266EF2AE596BF003429C4 /* TuSumUITests.swift in Sources */,
+				D05266F12AE596BF003429C4 /* TuSumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05266E22AE596BF003429C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05266CF2AE596BC003429C4 /* TuSum */;
+			targetProxy = D05266E12AE596BF003429C4 /* PBXContainerItemProxy */;
+		};
+		D05266EC2AE596BF003429C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05266CF2AE596BC003429C4 /* TuSum */;
+			targetProxy = D05266EB2AE596BF003429C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D05266F22AE596BF003429C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D05266F32AE596BF003429C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05266F52AE596BF003429C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TuSum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D05266F62AE596BF003429C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TuSum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D05266F82AE596BF003429C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuSum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuSum";
+			};
+			name = Debug;
+		};
+		D05266F92AE596BF003429C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuSum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TuSum";
+			};
+			name = Release;
+		};
+		D05266FB2AE596BF003429C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuSum;
+			};
+			name = Debug;
+		};
+		D05266FC2AE596BF003429C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Berk-Go-zek.TuSumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TuSum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05266CB2AE596BC003429C4 /* Build configuration list for PBXProject "TuSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05266F22AE596BF003429C4 /* Debug */,
+				D05266F32AE596BF003429C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05266F42AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05266F52AE596BF003429C4 /* Debug */,
+				D05266F62AE596BF003429C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05266F72AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05266F82AE596BF003429C4 /* Debug */,
+				D05266F92AE596BF003429C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05266FA2AE596BF003429C4 /* Build configuration list for PBXNativeTarget "TuSumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05266FB2AE596BF003429C4 /* Debug */,
+				D05266FC2AE596BF003429C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05266C82AE596BC003429C4 /* Project object */;
+}
