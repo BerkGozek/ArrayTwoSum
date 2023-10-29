@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State          private  var numberInput  : Int = 0
-    @StateObject    private  var numberArray = NumberArrayViewModel()
+    @State  private var numberInput :   Int     = 0
+    @State  public  var numberArray :   [Int]   = []
     
-    @State public   var targetInput  : Int       = 0
-    @State private  var targetLock   : Bool      = false
-    @State private  var idk          : String    = "Lock in"
+    @State  public  var targetInput :   Int     = 0
+    @State  private var targetLock  :   Bool    = false
+    @State  private var idk         :   String  = "Lock in"
     
     var body: some View {
         VStack {
@@ -43,7 +43,7 @@ struct ContentView: View {
             
             
             List {
-                ForEach(numberArray.sorted(), id: \.self) { number in
+                ForEach(numberArray.sorted, id: \.self) { number in
                     Text("\(number)")
                 }
             }
