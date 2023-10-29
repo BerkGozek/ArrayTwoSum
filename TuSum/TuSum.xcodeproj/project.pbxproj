@@ -14,7 +14,6 @@
 		D05266E52AE596BF003429C4 /* TuSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266E42AE596BF003429C4 /* TuSumTests.swift */; };
 		D05266EF2AE596BF003429C4 /* TuSumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266EE2AE596BF003429C4 /* TuSumUITests.swift */; };
 		D05266F12AE596BF003429C4 /* TuSumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05266F02AE596BF003429C4 /* TuSumUITestsLaunchTests.swift */; };
-		D064C5E72AE9BE2400AE0442 /* SwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064C5E62AE9BE2400AE0442 /* SwitcherView.swift */; };
 		D085E17C2AEA5AC000422A29 /* NumberArrayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085E17B2AEA5AC000422A29 /* NumberArrayViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		D05266EA2AE596BF003429C4 /* TuSumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuSumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05266EE2AE596BF003429C4 /* TuSumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumUITests.swift; sourceTree = "<group>"; };
 		D05266F02AE596BF003429C4 /* TuSumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuSumUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D064C5E62AE9BE2400AE0442 /* SwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherView.swift; sourceTree = "<group>"; };
 		D085E17B2AEA5AC000422A29 /* NumberArrayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberArrayViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +98,6 @@
 			children = (
 				D05266D32AE596BC003429C4 /* TuSumApp.swift */,
 				D05266D52AE596BC003429C4 /* ContentView.swift */,
-				D064C5E62AE9BE2400AE0442 /* SwitcherView.swift */,
 				D05266D72AE596BE003429C4 /* Assets.xcassets */,
 				D05266D92AE596BE003429C4 /* Preview Content */,
 				D085E17B2AEA5AC000422A29 /* NumberArrayViewModel.swift */,
@@ -263,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D064C5E72AE9BE2400AE0442 /* SwitcherView.swift in Sources */,
 				D05266D62AE596BC003429C4 /* ContentView.swift in Sources */,
 				D05266D42AE596BC003429C4 /* TuSumApp.swift in Sources */,
 				D085E17C2AEA5AC000422A29 /* NumberArrayViewModel.swift in Sources */,
