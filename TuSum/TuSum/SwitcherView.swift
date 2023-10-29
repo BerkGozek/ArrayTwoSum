@@ -9,13 +9,14 @@ import SwiftUI
 
 struct SwitcherView: View {
     @State private var showView1 = true
+    @StateObject var sharedData = SharedData()
 
         var body: some View {
             VStack {
                 if showView1 {
                     ContentView()
                 } else {
-                    TestingView()
+                    TestingView(sharedData:sharedData)
                 }
 
                 Button("Start Process") {

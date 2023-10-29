@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private  var numberInput  : Int       = 0
-    @State public   var numberArray  : [Int]     = []
+    @State          private  var numberInput  : Int = 0
+    @StateObject    private  var numberArray = NumberArrayViewModel()
     
     @State public   var targetInput  : Int       = 0
     @State private  var targetLock   : Bool      = false

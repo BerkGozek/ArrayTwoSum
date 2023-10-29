@@ -10,7 +10,6 @@ import SwiftUI
 @main
 struct TuSumApp: App {
     
-    @State private var ViewSwitch = true
     
     var body: some Scene {
         WindowGroup {
