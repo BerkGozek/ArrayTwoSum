@@ -42,9 +42,18 @@ struct ContentView: View {
             
             
             
-            List {
-                ForEach(numberArray.sorted, id: \.self) { number in
-                    Text("\(number)")
+            HStack {
+                ForEach(numberArray.sorted(), id: \.self) { number in
+                    ZStack{
+                        Rectangle()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.black)
+
+                        Rectangle()
+                            .frame(width: 48, height: 48)
+                            .foregroundColor(.white)
+                        Text("\(number)")
+                    }
                 }
             }
 
@@ -54,6 +63,11 @@ struct ContentView: View {
         .padding()
     }
 }
+
+struct NumBox: View{
+    
+}
+
 
 #Preview {
     ContentView()

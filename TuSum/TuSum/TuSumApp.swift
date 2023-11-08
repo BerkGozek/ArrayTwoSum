@@ -13,7 +13,7 @@ struct TuSumApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SwitcherView()
+            ContentView()
         }
     }
 }
